@@ -20,10 +20,10 @@ After you got the data, create a folder named "data" and put the data files in i
 ## Model code
 The four model code files stand for the four models mentioned in paper and named after with the corresponding model name, respectively. The code runs for the model training and is set to check the performance index(NMSE and cosine similarity) every several epochs to find the best model.   
 A few preparations should be taken before the training: Create a folder named "result" to save the models and create the subfolders corresponding with each model in each situation:  
-> ConvlstmCsiNet/
-> * .py
-> * result/
->   * ConvlstmCsiNet_A
->   * ConvlstmCsiNet_B
->   * ConvlstmCsiNet_C
->   * ConvlstmCsiNet
+>ConvlstmCsiNet/
+>.py
+>result/
+>> ConvlstmCsiNet_A
+>> ConvlstmCsiNet_B
+>> ConvlstmCsiNet_C
+>> ConvlstmCsiNet
