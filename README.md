@@ -22,7 +22,7 @@ The four model code files stand for the four models mentioned in paper and named
 
 A few preparations should be taken before the training: Create a folder named "result" to save the models and create the subfolders corresponding with each model in each situation:  
 
-ConvlstmCsiNet/  
+CSI/  
 >.py  
 >result/  
 >> ConvlstmCsiNet_A_indoor/  
