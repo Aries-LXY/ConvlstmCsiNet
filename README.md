@@ -15,7 +15,8 @@ This code requires the following:
 ## Data
 The data is available online:  
 https://drive.google.com/drive/folders/1_lAMLk_5k1Z8zJQlTr5NRnSD6ACaNRtj?usp=sharing.   
-After you got the data, create a folder named "data" and put the data files in it. Code files are outside the folder "data". Then run "data_transform.py" to generate the time-varying CSI according to the expression(3) in paper:
+After you got the data, create a folder named "data" and put the data files in it. Code files are outside the folder "data". Then run "data_transform.py" to generate the time-varying CSI according to the expression(3) in paper:  
+![](https://github.com/Aries-LXY/ConvlstmCsiNet/blob/master/result/1.png)
 
 ## Model code
 The four model code files stand for the four models mentioned in paper and named after with the corresponding model name, respectively. The code runs for the model training and is set to check the performance index(NMSE and cosine similarity) every several epochs to find the best model.   
